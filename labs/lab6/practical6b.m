@@ -23,7 +23,7 @@ position = [0;0];
 plot(position(1),position(2),'b.','MarkerSize',5);
 
 %define number of samples
-nSample = 1000;
+nSample = 100;
 
 %loop over number of samples
 for (cSample = 1:nSample)
@@ -31,7 +31,7 @@ for (cSample = 1:nSample)
         %x direction given current y positition - look at the notes for the
         %Gaussian distribution. Replace this:
         %see Chapter 5
-        gaussMeanXGivenY = gaussMean(1) + gaussCov(1,2)*gaussCov(2,2)^(-1)*(position(2) - gaussMean(2));
+        gaussMeanXGivenY = gaussMean(1) + gaussCov(1,2)*gaussCov(2,2)^(-1)*(position(2) - gaussMean(2)); %conditional distributions (page 48)
         gaussVarXGivenY = gaussCov(1,1) - gaussCov(1,2)*gaussCov(2,2)^(-1)*gaussCov(1,2);
         
         %TO DO:  draw a sample from this distribution and update x!!!! - use
@@ -42,7 +42,7 @@ for (cSample = 1:nSample)
         newPosition(2) = position(2);
         
         %display this update
-        plot([position(1) newPosition(1)],[position(2) newPosition(2)],'b-');
+        plot([position(1) newPosition(1)],[position(2) newPosition(2)],'b-');drawnow;
         
         %update the original position
         position = newPosition;
@@ -57,11 +57,11 @@ for (cSample = 1:nSample)
         %randn to do this. Replace this
         newPosition(2) = gaussMeanYGivenX + randn(1)*gaussVarYGivenX;
         
-        %copy the y position
+        %copy the x position
         newPosition(1) = position(1);
 
         %display this update
-        plot([position(1) newPosition(1)],[position(2) newPosition(2)],'b-');
+        plot([position(1) newPosition(1)],[position(2) newPosition(2)],'b-');drawnow;
         
         %update the original position
         position = newPosition;

@@ -13,8 +13,6 @@ close all;
 MRFCosts = [0.001 0.60;...   
             0.60 0.001]
 
-        
-        
 %define size of label field
 imX = 20; imY = 20;
 
@@ -44,11 +42,11 @@ for (cIter = 1:nIter)
         label(thisY,thisX) = 0;
         %calculate the probability of the MRF 
         %TO DO - fill in this routine (below)
-        prLabelEquals0 = calcMRFProbability(label,MRFCosts);
+        prLabelEquals0 = calcMRFProbability(thisY,thisX,label,MRFCosts);
         %set this label to one
         label(thisY,thisX) = 1;
         %calculate the probability of the MRF
-        prLabelEquals1 = calcMRFProbability(label,MRFCosts);
+        prLabelEquals1 = calcMRFProbability(thisY,thisX,label,MRFCosts);
         %now we will sample from conditional probability distribution        
         %TO DO normalize the two probabilities so that they sum to one
         prLabelEquals0 = prLabelEquals0/(prLabelEquals0+prLabelEquals1);
@@ -82,7 +80,7 @@ end;
 
 %the goal of this routine is to calculate the probability of 
 %the Markov random field (up to the unknown scaling factor!)
-function prMRF = calcMRFProbability(label,MRFCosts)
+function prMRF = calcMRFProbability(thisY,thisX,label,MRFCosts)
 
 %find size of image
 [imY imX] = size(label);
@@ -91,27 +89,23 @@ function prMRF = calcMRFProbability(label,MRFCosts)
 U = 0;
 
 %for each pixel
-for(cPixelY = 1:imY)
-    for (cPixelX = 1:imX)
         %add cost for neighbour above this pixel
         %TO DO - fill in routine get cost
-        if(cPixelY>1)
-            U = U + getCost(label(cPixelY,cPixelX),label(cPixelY-1,cPixelX),MRFCosts);
+        if(thisY>1)
+            U = U + getCost(label(thisY,thisX),label(thisY-1,thisX),MRFCosts);
         end;
         %add cost for neighbour below this pixel
-        if(cPixelY<imY)
-            U = U + getCost(label(cPixelY,cPixelX),label(cPixelY+1,cPixelX),MRFCosts);
+        if(thisY<imY)
+            U = U + getCost(label(thisY,thisX),label(thisY+1,thisX),MRFCosts);
         end;
         %add cost for neighbour to the left
-        if(cPixelX>1)
-            U = U + getCost(label(cPixelY,cPixelX),label(cPixelY,cPixelX-1),MRFCosts);
+        if(thisX>1)
+            U = U + getCost(label(thisY,thisX),label(thisY,thisX-1),MRFCosts);
         end;
         %add cost for neighbour to the right(!!!) this pixel
-        if(cPixelX<imX)
-            U = U + getCost(label(cPixelY,cPixelX),label(cPixelY,cPixelX+1),MRFCosts);
+        if(thisX<imX)
+            U = U + getCost(label(thisY,thisX),label(thisY,thisX+1),MRFCosts);
         end;                
-    end;
-end;
 
 %TO DO - calculate cost of MRF. Replace this:
 prMRF = exp(-U);

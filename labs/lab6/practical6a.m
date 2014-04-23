@@ -55,12 +55,12 @@ end
 Z = sum(prW);
 
 %normalize probabilities
-prW = prW/Z
+prW = prW/Z;
 
 %display probabilities
 %run through each of the 32 possible combinations
 for(cW = 1:32)
-    fprintf('Configuration: %d%d%d%d%d, Probability %4.4f\n',binaryValues(cW,1),...
+    fprintf('Configuration: %d%d%d%d%d, Probability %4.8f\n',binaryValues(cW,1),...
               binaryValues(cW,2),binaryValues(cW,3),binaryValues(cW,4),binaryValues(cW,5),prW(cW));
 end;
 
