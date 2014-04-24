@@ -3,7 +3,7 @@ MachineVision
 
 Need further review
 
-lab5 (Dynamic Programming):
+lab5 (Dynamic Programming):  
 a. dynamic progamming along scanlines  
 
 lab6 (Markov Random Fields):   
