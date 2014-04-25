@@ -42,7 +42,8 @@ for (cPosition = 2:nPosition) % N =2:6
         %TO DO - store the minimum cost in the minimumCost matrix
         minimumCost(cNode,cPosition) = minimum;
         %TO DO - store the parent index in the parents matrix
-        parents(cNode, cPosition) = find(possPathCosts == minimum);
+        MIN = find(possPathCosts == minimum);
+        parents(cNode, cPosition) = MIN(1);
     end;
 end;
 
@@ -55,7 +56,8 @@ bestPath = zeros(1,nPosition);
 %TO DO  - find the index of the overall minimum cost from the last column and put this
 %into the last entry of best path
 last_column = (minimumCost(:,nPosition));
-bestPath(nPosition) = find(last_column == min(last_column));
+BEST = find(last_column == min(last_column));
+bestPath(nPosition) = BEST(1);
 
 %TO DO - find the parent of the node you just found
 parents(bestPath(nPosition),nPosition);

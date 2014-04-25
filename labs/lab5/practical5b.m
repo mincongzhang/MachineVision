@@ -22,7 +22,7 @@ subplot(1,2,2); imagesc(im2); axis off; axis image; colormap(gray);
 [imY imX] = size(im1);
 
 %define maximum disparity 
-maxDisp = 10;
+maxDisp = 5;
 
 %set up pairwiseCosts - we will define a fixed cost of alpha for changing
 %disparity or zero cost for staying the same
@@ -54,16 +54,16 @@ for (cY = 1:imY)
             %negative log likelihood, where the likelihood is a Gaussian
             %with a mean of the value (i.e. intensity) at the offset pixel 
             %in image2 and a standard deviation of "noiseSD". 
-            mean = im2(cDisp,cX);
+            mean = im2(cY,cX);
             std = noiseSD;
             %1/(std*sqrt(2*pi))*exp(-(x-mean)^2/(2*std^2))
-            unaryCosts(cDisp,cX) = -log(1/(std*sqrt(2*pi))*exp(-(im1(cDisp,cX)-mean)^2/(2*std^2)));
+            unaryCosts(cDisp,cX) = -log(1/(std*sqrt(2*pi))*exp(-(im1(cY,cX+cDisp)-mean)^2/(2*std^2)));
             end;
     end;
     
     %TO DO call the routine that you wrote in the previous section (copy it
     %below into the bottom of this file)
-    estDisp(cY,:) = dynamicProgram(unaryCosts,pairwiseCosts)
+    estDisp(cY,:) = dynamicProgram(unaryCosts,pairwiseCosts);
     
     %display solution so far
     subplot(1,2,2); imagesc(estDisp,[0 11]); axis off; axis image; colormap(gray); colorbar;
