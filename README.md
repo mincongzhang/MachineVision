@@ -14,4 +14,4 @@ c. MAP inference for binary pairwise MRFs (Gibbs sampling)(new method with much 
 
 lab7 (Models for transformations):  
 practical1.  Calculate the homography that maps two sets of points to one another  
-practical1B.  
+practical1B. Visual panoramas/image mosaicing
