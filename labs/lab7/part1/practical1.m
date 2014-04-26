@@ -13,16 +13,18 @@ pts1Cart = [  240.5000   16.8351   33.5890  164.2696  149.1911;...
               248.8770  193.5890   251.3901 168.4581  228.7723];
 
 %turn points to homogeneous representation
-pts1Hom = [pts1Cart; ones(1,size(pts1Cart,2))]
+pts1Hom = [pts1Cart; ones(1,size(pts1Cart,2))];
       
 %define a homography
-H = [0.6 0.7 -100; 1.0 0.6 50; 0.001 0.002 1.0]
+H = [0.6   0.7   -100;
+    1.0    0.6    50; 
+    0.001  0.002  1.0];
 
 %apply homography to points
-pts2Hom = H*pts1Hom
+pts2Hom = H*pts1Hom;
 
 %convert back to Cartesian
-pts2Cart = pts2Hom(1:2,:)./repmat(pts2Hom(3,:),2,1)
+pts2Cart = pts2Hom(1:2,:)./repmat(pts2Hom(3,:),2,1);
 
 %add a small amount of noise
 noiseLevel = 4.0;
@@ -32,7 +34,7 @@ pts2Cart = pts2Cart+noiseLevel*randn(size(pts2Cart));
 %opens figure
 figure; set(gcf,'Color',[1 1 1]);
 %draw lines between each pair of points
-nPoint = size(pts1Cart,2)
+nPoint = size(pts1Cart,2);
 for (cPoint = 1:nPoint)
     %plot a green line between each pair of points
     plot([pts1Cart(1,cPoint) pts2Cart(1,cPoint)],[pts1Cart(2,cPoint) pts2Cart(2,cPoint)],'g-');
@@ -59,12 +61,10 @@ HEst = calcBestHomography(pts1Cart, pts2Cart);
 %measuring the square  distance between the desired and actual positions
 
 %apply homography to points
-YYY =HEst
-XXX =pts1Hom 
-pts2EstHom = HEst*pts1Hom
+pts2EstHom = HEst*pts1Hom;
 
 %convert back to Cartesian
-pts2EstCart = pts2EstHom(1:2,:)./repmat(pts2EstHom(3,:),2,1)
+pts2EstCart = pts2EstHom(1:2,:)./repmat(pts2EstHom(3,:),2,1);
 
 %calculate mean squared distance from actual points
 sqDiff = mean(sum((pts2Cart-pts2EstCart).^2))
@@ -117,8 +117,8 @@ pts1Hom = [pts1Cart; ones(1,size(pts1Cart,2))];
 pts2Hom = [pts2Cart; ones(1,size(pts2Cart,2))];
 %then construct A matrix which should be (10 x 9) in size
 [m n] = size(pts1Hom)
-pts1Hom = pts1Hom'
-pts2Hom = pts2Hom'
+pts1Hom = pts1Hom';
+pts2Hom = pts2Hom';
 Y = pts2Hom(:,2);
 X = pts2Hom(:,1);
 A1 = zeros(n*2,3);
@@ -130,14 +130,14 @@ for i = 1:n
     A3(2*i-1,:) = pts1Hom(i,:)*Y(i);
     A3(2*i,:) = -pts1Hom(i,:)*X(i);
 end
-A = [A1 A2 A3]
+A = [A1 A2 A3];
 
 %solve Ah = 0 by calling
 %h = solveAXEqualsZero(A); (you have to write this routine too - see below)
 h = solveAXEqualsZero(A);
 
 %reshape h into the matrix H
-[m n] = size(h)
+[m n] = size(h);
 H = reshape(h,sqrt(m),sqrt(m))';
 
 %Beware - when you reshape the (9x1) vector x to the (3x3) shape of a homography, you must make
