@@ -13,5 +13,5 @@ b. Sampling from probability distributions using MCMC methods (get get gaussMean
 c. MAP inference for binary pairwise MRFs (Gibbs sampling)(new method with much less complexity added)
 
 lab7 (Models for transformations):  
-practical1.  calculate the homography that maps two sets of points to one another  
+practical1.  Calculate the homography that maps two sets of points to one another  
 practical1B.  
