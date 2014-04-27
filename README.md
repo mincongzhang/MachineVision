@@ -17,10 +17,10 @@ practical1a. Calculate the homography that maps two sets of points to one anothe
 practical1b. Visual panoramas/image mosaicing
 
 
-Need to be reviewed:
-RANSAC
-MoG
-epipoles
-foundamentaial matrix
-Geometric invariant? P388 shape
-bug for 1st coursework
+Need to be reviewed:  
+RANSAC  
+MoG  
+epipoles  
+foundamentaial matrix  
+Geometric invariant? P388 shape  
+bug for 1st coursework  
