@@ -35,4 +35,4 @@ MoG
 epipoles  
 foundamentaial matrix  
 Geometric invariant? P388 shape  
-bug for 1st coursework  
+bug for 1st coursework: chol(mixGauss.cov(:,:,h),'lower'); 
