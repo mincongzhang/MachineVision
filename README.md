@@ -3,6 +3,9 @@ MachineVision
 
 Need further review
 
+####lab2 (Mixture of Gaussian):
+c.EM algorithm finish
+
 ####lab5 (Dynamic Programming):  
 a. Dynamic progamming along scanlines  
 b. Apply dynamic programming in Dense Stereo Vision
