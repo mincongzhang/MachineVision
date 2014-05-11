@@ -47,7 +47,7 @@ Need to be reviewed:
 12. Snake/active contours  
 13. Regression, Kernel Trick, Woodbury indentity  
 14. Kalman Filter, Particle Filter,Tracking   
-15. Procrustes analysis, factor analysis
+15. Procrustes analysis(mentioned in homography and pinhole camera), factor analysis
 
 RANSAC  
 MoG  
