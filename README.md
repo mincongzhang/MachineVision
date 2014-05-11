@@ -33,16 +33,15 @@ question: Don't understand the orthogonal Procrustes problem
 
 ####Notes
 Need to be reviewed:  
-1.  Pinhole camera  
-2.  Transformation, Homography, Cartesian/Homogeneous  
-3.  MRF,clique  
-4.  SIFT, RANSAC, fundamental matrix, epipole  
-5.  generative & discriminative  
-6.  Graphcut (max flow/min cut) / image segmentation  
-7.  EM, hidden variable  
-8.  Geometric Invariants  
-9.  texture synthesis  
-10. ML,MAP,Bayesian approach 
+1.  ML,MAP,Bayesian approach   
+2.  EM, hidden variable  
+3.  generative & discriminative  
+4.  Pinhole camera,calibrate,rectification  
+5.  Transformation, Homography, Cartesian/Homogeneous  
+6.  MRF,clique  
+7.  SIFT, RANSAC, fundamental matrix, epipole  
+8.  Graphcut (max flow/min cut) / image segmentation/ Texture synthesis  
+9.  Geometric Invariants  
 11. Snake/active contours  
 12. Regression, Kernel Trick, Woodbury indentity  
 13. Kalman Filter, Particle Filter,Tracking   
