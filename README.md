@@ -38,7 +38,7 @@ Need to be reviewed:
 3.  generative & discriminative  
 4.  Pinhole camera,calibrate,rectification  
 5.  Transformation, Homography, Cartesian/Homogeneous  
-6.  Directed/Undirected graphical model, potential function
+6.  Directed/Undirected graphical model, potential function  
 7.  MRF,clique  
 8.  Dynamic programming  
 9.  SIFT, RANSAC, fundamental matrix, epipole  
