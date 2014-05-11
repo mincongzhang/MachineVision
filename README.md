@@ -35,16 +35,16 @@ question: Don't understand the orthogonal Procrustes problem
 Need to be reviewed:  
 1.  ML,MAP,Bayesian approach   
 2.  EM, hidden variable  
-3.  generative & discriminative  
-4.  13. Regression, Kernel Trick, Woodbury indentity(matrix inversion lemma)  
+3.  Generative & Discriminative  
+4.  Regression, Kernel Trick, Woodbury indentity(matrix inversion lemma)  
 5.  Pinhole camera,calibrate,rectification  
 6.  Transformation, Homography, Cartesian/Homogeneous  
 7.  Directed/Undirected graphical model, potential function  
 8.  MRF,clique  
 9.  Dynamic programming  
-10.  SIFT, RANSAC, fundamental matrix, epipole  
-11.  Graphcut (max flow/min cut) / image segmentation/ Texture synthesis  
-12.  Geometric Invariants  
+10. SIFT, RANSAC, fundamental matrix, epipole  
+11. Graphcut (max flow/min cut) / image segmentation/ Texture synthesis  
+12. Geometric Invariants  
 13. Snake/active contours  
 14. Tracking, Kalman Filter, Particle Filter,Chapman-Kolmogorov relation  
 15. Procrustes analysis(mentioned in homography and pinhole camera), factor analysis
