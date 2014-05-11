@@ -40,7 +40,7 @@ Need to be reviewed:
 5.  Transformation, Homography, Cartesian/Homogeneous  
 6.  Directed/Undirected graphical model, potential function
 7.  MRF,clique  
-8.  Dynamic programming
+8.  Dynamic programming  
 9.  SIFT, RANSAC, fundamental matrix, epipole  
 10.  Graphcut (max flow/min cut) / image segmentation/ Texture synthesis  
 11.  Geometric Invariants  
