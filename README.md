@@ -46,7 +46,7 @@ Need to be reviewed:
 11.  Geometric Invariants  
 12. Snake/active contours  
 13. Regression, Kernel Trick, Woodbury indentity  
-14. Kalman Filter, Particle Filter,Tracking   
+14. Tracking, Kalman Filter, Particle Filter,Chapman-Kolmogorov relation   
 15. Procrustes analysis(mentioned in homography and pinhole camera), factor analysis
 
 RANSAC  
