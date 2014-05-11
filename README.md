@@ -38,13 +38,16 @@ Need to be reviewed:
 3.  generative & discriminative  
 4.  Pinhole camera,calibrate,rectification  
 5.  Transformation, Homography, Cartesian/Homogeneous  
-6.  MRF,clique  
-7.  SIFT, RANSAC, fundamental matrix, epipole  
-8.  Graphcut (max flow/min cut) / image segmentation/ Texture synthesis  
-9.  Geometric Invariants  
-11. Snake/active contours  
-12. Regression, Kernel Trick, Woodbury indentity  
-13. Kalman Filter, Particle Filter,Tracking   
+6.  Directed/Undirected graphical model, potential function
+7.  MRF,clique  
+8.  Dynamic programming
+9.  SIFT, RANSAC, fundamental matrix, epipole  
+10.  Graphcut (max flow/min cut) / image segmentation/ Texture synthesis  
+11.  Geometric Invariants  
+12. Snake/active contours  
+13. Regression, Kernel Trick, Woodbury indentity  
+14. Kalman Filter, Particle Filter,Tracking   
+15. Procrustes analysis, factor analysis
 
 RANSAC  
 MoG  
