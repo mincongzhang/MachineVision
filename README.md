@@ -31,7 +31,7 @@ question: Don't understand the orthogonal Procrustes problem
   
 
 
-####temporary notes
+####Notes
 Need to be reviewed:  
 1.  Pinhole camera  
 2.  Transformation, Homography, Cartesian/Homogeneous  
