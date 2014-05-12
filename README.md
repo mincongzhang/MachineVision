@@ -21,7 +21,7 @@ practical1b. Visual panoramas/image mosaicing
 practical2a. Learning intrinsic parameters in pinhole camera  
 practical2b. Application (Augmented Reality)  
 ![lab7](https://github.com/mincongzhang/MachineVision/raw/master/labs/lab7/part2/result.jpg)
-question: Don't understand the orthogonal Procrustes problem
+question: Don't understand the orthogonal Procrustes problem(update: find solution at Page 336) 
 
     %Estimate first two columns of rotation matrix R from the first two columns of H using the SVD
     R = H(:,1:2);  
