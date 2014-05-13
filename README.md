@@ -7,8 +7,8 @@ Need further review
 c.EM algorithm finish
 
 EM algorithm v.s. K-means
-![EM](https://github.com/mincongzhang/MachineVision/raw/master/EMvsKMEANS.jpg)
 http://www.cs.colorado.edu/~grudic/teaching/CSCI4202/EM_algorithm.pdf
+![EM](https://github.com/mincongzhang/MachineVision/raw/master/EMvsKMEANS.jpg)
 
 ####lab5 (Dynamic Programming):  
 a. Dynamic progamming along scanlines  
