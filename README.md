@@ -48,7 +48,8 @@ syllabus:
 13. Geometric Invariants  
 14. Snake/active contours, shape template, statistical shape model, landmarks  
 15. Tracking, Kalman Filter, Particle Filter,Chapman-Kolmogorov relation  
-16. Procrustes analysis(mentioned in homography and pinhole camera), factor analysis
+16. Procrustes analysis(mentioned in homography and pinhole camera), Generalized Procrustes Analysis(Shape template, Page 398)   
+17. factor analysis
 
 Geometric invariant? P388 shape  
 bug for 1st coursework: chol(mixGauss.cov(:,:,h),'lower'); 
