@@ -37,7 +37,7 @@ syllabus:
 2.  EM, hidden variable  
 3.  Generative & Discriminative  
 4.  Regression, Kernel Trick, Woodbury indentity(matrix inversion lemma)  
-5.  Classification
+5.  Classification  
 6.  Pinhole camera,calibrate,fundamental matrix, epipoles, rectification  
 7.  Transformation, Homography, Cartesian/Homogeneous  
 8.  Directed/Undirected graphical model, potential function  
