@@ -32,7 +32,7 @@ question: Don't understand the orthogonal Procrustes problem(update: find soluti
 
 
 ####Notes
-syllabus:
+syllabus:  
 1.  ML,MAP,Bayesian approach   
 2.  EM, hidden variable  
 3.  Generative & Discriminative  
