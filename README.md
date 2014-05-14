@@ -1,7 +1,7 @@
 MachineVision
 =============
 
-Need further review
+Exam is done. But review is still needed.
 
 ####lab2 (Mixture of Gaussian):
 c.EM algorithm finish
@@ -55,5 +55,4 @@ syllabus:
 16. Procrustes analysis(mentioned in homography/pinhole camera), Generalized Procrustes Analysis(Shape template, Page 398)  
 17. factor analysis
 
-Geometric invariant? P388 shape  
 bug for 1st coursework: chol(mixGauss.cov(:,:,h),'lower'); 
