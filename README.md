@@ -53,4 +53,4 @@ question: Don't understand the orthogonal Procrustes problem(update: find soluti
     R_hat = U*[1,0;0,1;0,0]*V';  
 
   
-*bug for 1st coursework: chol(mixGauss.cov(:,:,h),'lower'); 
+*bug fixed for 1st coursework: chol(mixGauss.cov(:,:,h),'lower'); 
