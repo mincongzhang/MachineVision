@@ -56,4 +56,6 @@ question: Don't understand the orthogonal Procrustes problem(update: find soluti
  
   
 ####coursework 1:  
-*bug fixed for 1st coursework: chol(mixGauss.cov(:,:,h),'lower'); 
+*bug fixed for 1st coursework: 
+
+    chol(mixGauss.cov(:,:,h),'lower'); 
