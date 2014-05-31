@@ -57,9 +57,9 @@ question: Don't understand the orthogonal Procrustes problem(update: find soluti
 ![condensation2](https://github.com/mincongzhang/MachineVision/raw/master/condensation2.jpg)
   
 ####coursework 1:  
-1. Apple detection (MoG model & EM algorithm)
-![apple](https://github.com/mincongzhang/MachineVision/raw/master/apple.jpg)
-![apple2](https://github.com/mincongzhang/MachineVision/raw/master/apple2.jpg)
+1. Apple detection (MoG model & EM algorithm)  
+![apple](https://github.com/mincongzhang/MachineVision/raw/master/apple.jpg)  
+![apple2](https://github.com/mincongzhang/MachineVision/raw/master/apple2.jpg)  
 
 *bug fixed for 1st coursework: 
 
