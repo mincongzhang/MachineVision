@@ -53,9 +53,12 @@ question: Don't understand the orthogonal Procrustes problem(update: find soluti
     R_hat = U*[1,0;0,1;0,0]*V';  
 
 ####lab9 (Condensation filter):  
- 
+![condensation](https://github.com/mincongzhang/MachineVision/raw/master/condensation.jpg)
+![condensation2](https://github.com/mincongzhang/MachineVision/raw/master/condensation2.jpg)
   
 ####coursework 1:  
+1. Skin detection (MoG model)
+![skin](https://github.com/mincongzhang/MachineVision/raw/master/labs/lab7/part2/result.jpg)
 *bug fixed for 1st coursework: 
 
     chol(mixGauss.cov(:,:,h),'lower'); 
