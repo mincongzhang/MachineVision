@@ -1,7 +1,7 @@
 MachineVision
 =============
 
-Exam is done. But review is still needed.
+Exam is done. But review is still needed (Dense Stereo Vision noises, regression and classification).
 
 ####Notes
 syllabus for revision:  
