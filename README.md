@@ -52,5 +52,8 @@ question: Don't understand the orthogonal Procrustes problem(update: find soluti
     [U,S,V] = svd(R);  
     R_hat = U*[1,0;0,1;0,0]*V';  
 
+####lab9 (Augmented reality tracking):  
+ 
   
+####coursework 1:  
 *bug fixed for 1st coursework: chol(mixGauss.cov(:,:,h),'lower'); 
