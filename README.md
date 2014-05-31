@@ -60,4 +60,4 @@ question: Don't understand the orthogonal Procrustes problem(update: find soluti
 
     chol(mixGauss.cov(:,:,h),'lower'); 
 
-####coursework 2 ((Augmented reality tracking)):
+####coursework 2 (Augmented reality tracking):
