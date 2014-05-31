@@ -58,8 +58,9 @@ question: Don't understand the orthogonal Procrustes problem(update: find soluti
   
 ####coursework 1:  
 1. Apple detection (MoG model & EM algorithm)
-![apple](https://github.com/mincongzhang/MachineVision/raw/master/labs/lab7/part2/apple.jpg)
-![apple2](https://github.com/mincongzhang/MachineVision/raw/master/labs/lab7/part2/apple2.jpg)
+![apple](https://github.com/mincongzhang/MachineVision/raw/master/apple.jpg)
+![apple2](https://github.com/mincongzhang/MachineVision/raw/master/apple2.jpg)
+
 *bug fixed for 1st coursework: 
 
     chol(mixGauss.cov(:,:,h),'lower'); 
