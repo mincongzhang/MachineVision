@@ -57,8 +57,9 @@ question: Don't understand the orthogonal Procrustes problem(update: find soluti
 ![condensation2](https://github.com/mincongzhang/MachineVision/raw/master/condensation2.jpg)
   
 ####coursework 1:  
-1. Skin detection (MoG model)
-![skin](https://github.com/mincongzhang/MachineVision/raw/master/labs/lab7/part2/result.jpg)
+1. Apple detection (MoG model & EM algorithm)
+![apple](https://github.com/mincongzhang/MachineVision/raw/master/labs/lab7/part2/apple.jpg)
+![apple2](https://github.com/mincongzhang/MachineVision/raw/master/labs/lab7/part2/apple2.jpg)
 *bug fixed for 1st coursework: 
 
     chol(mixGauss.cov(:,:,h),'lower'); 
