@@ -1,27 +1,6 @@
 MachineVision
 =============
 
-Exam is done. But review is still needed (Dense Stereo Vision noises, regression and classification).
-
-####Notes
-syllabus for revision:  
-1.  ML,MAP,Bayesian approach   
-2.  EM, hidden variable  
-3.  Generative & Discriminative  
-4.  Regression, Kernel Trick, Woodbury indentity(matrix inversion lemma)  
-5.  Classification  
-6.  Pinhole camera,calibrate,fundamental matrix, epipoles, rectification  
-7.  Transformation, Homography, Cartesian/Homogeneous  
-8.  Directed/Undirected graphical model, potential function  
-9.  MRF,clique  
-10. Dynamic programming  
-11. SIFT, RANSAC, fundamental matrix, epipole  
-12. Graphcut (max flow/min cut) / image segmentation/ Texture synthesis  
-13. Geometric Invariants  
-14. Snake/active contours, shape template, statistical shape model, landmarks  
-15. Tracking, Kalman Filter, Particle Filter,Chapman-Kolmogorov relation  
-16. Procrustes analysis(mentioned in homography/pinhole camera), Generalized Procrustes Analysis(Shape template, Page 398)  
-17. factor analysis
 
 ####lab2 (Mixture of Gaussian):
 c.EM algorithm finish
@@ -69,3 +48,27 @@ question: Don't understand the orthogonal Procrustes problem(update: find soluti
 
 ####coursework 2 (Augmented reality tracking):
 ![augmented_reality](https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg)
+
+
+
+Exam is done. But review is still needed (Dense Stereo Vision noises, regression and classification).
+
+####Notes
+syllabus for revision:  
+1.  ML,MAP,Bayesian approach   
+2.  EM, hidden variable  
+3.  Generative & Discriminative  
+4.  Regression, Kernel Trick, Woodbury indentity(matrix inversion lemma)  
+5.  Classification  
+6.  Pinhole camera,calibrate,fundamental matrix, epipoles, rectification  
+7.  Transformation, Homography, Cartesian/Homogeneous  
+8.  Directed/Undirected graphical model, potential function  
+9.  MRF,clique  
+10. Dynamic programming  
+11. SIFT, RANSAC, fundamental matrix, epipole  
+12. Graphcut (max flow/min cut) / image segmentation/ Texture synthesis  
+13. Geometric Invariants  
+14. Snake/active contours, shape template, statistical shape model, landmarks  
+15. Tracking, Kalman Filter, Particle Filter,Chapman-Kolmogorov relation  
+16. Procrustes analysis(mentioned in homography/pinhole camera), Generalized Procrustes Analysis(Shape template, Page 398)  
+17. factor analysis
