@@ -3,7 +3,7 @@ MachineVision
 
 
 ####lab2 (Mixture of Gaussian):
-c.EM algorithm finish
+c.EM algorithm
 
 EM algorithm v.s. K-means  
 http://www.cs.colorado.edu/~grudic/teaching/CSCI4202/EM_algorithm.pdf  
