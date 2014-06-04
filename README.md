@@ -22,9 +22,10 @@ c. MAP inference for binary pairwise MRFs (Gibbs sampling)(new method with much 
 
 ####lab7 (Models for transformations):  
 practical1a. Calculate the homography that maps two sets of points to one another  
-practical1b. Visual panoramas/image mosaicing  
+practical1b. Visual panoramas/image mosaicing(A much faster way for mapping is created)
 practical2a. Learning intrinsic parameters in pinhole camera  
 practical2b. Application (Augmented Reality)  
+![lab7](https://github.com/mincongzhang/MachineVision/raw/master/panorama.jpg)
 ![lab7](https://github.com/mincongzhang/MachineVision/raw/master/labs/lab7/part2/result.jpg)
 question: Don't understand the orthogonal Procrustes problem(update: find solution at Page 336) 
 
