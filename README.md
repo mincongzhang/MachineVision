@@ -10,20 +10,20 @@ EM algorithm v.s. K-means
 http://www.cs.colorado.edu/~grudic/teaching/CSCI4202/EM_algorithm.pdf  
 ![EM](https://github.com/mincongzhang/MachineVision/raw/master/EMvsKMEANS.jpg)
 
-####lab5 (Dynamic Programming):  
+##lab5 (Dynamic Programming):  
 =============
 a. Dynamic progamming along scanlines  
 b. Apply dynamic programming in Dense Stereo Vision
 (still many noises, need further improvement)
 
 
-####lab6 (Markov Random Fields):   
+##lab6 (Markov Random Fields):   
 =============
 a. 5-node grid example in Markov random fields (12.1.1 in the book, page 229)  
 b. Sampling from probability distributions using MCMC methods (get get gaussMeanXGivenY by conditional distributions)  
 c. MAP inference for binary pairwise MRFs (Gibbs sampling)(new method with much less complexity added)
 
-####lab7 (Models for transformations):  
+##lab7 (Models for transformations):  
 =============
 practical1a. Calculate the homography that maps two sets of points to one another  
 practical1b. Visual panoramas/image mosaicing(A much faster way for mapping is created)
@@ -38,12 +38,12 @@ question: Don't understand the orthogonal Procrustes problem(update: find soluti
     [U,S,V] = svd(R);  
     R_hat = U*[1,0;0,1;0,0]*V';  
 
-####lab9 (Condensation filter):  
+##lab9 (Condensation filter):  
 =============
 ![condensation](https://github.com/mincongzhang/MachineVision/raw/master/condensation.jpg)
 ![condensation2](https://github.com/mincongzhang/MachineVision/raw/master/condensation2.jpg)
   
-####coursework 1:  
+##coursework 1:  
 =============
 1. Apple detection (MoG model & EM algorithm)  
 ![apple](https://github.com/mincongzhang/MachineVision/raw/master/apple.jpg)  
@@ -53,7 +53,7 @@ question: Don't understand the orthogonal Procrustes problem(update: find soluti
 
     chol(mixGauss.cov(:,:,h),'lower'); 
 
-####coursework 2 (Augmented reality tracking):
+##coursework 2 (Augmented reality tracking):
 =============
 ![augmented_reality](https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg)
 
@@ -61,7 +61,7 @@ question: Don't understand the orthogonal Procrustes problem(update: find soluti
 
 Exam is done. But review is still needed (Dense Stereo Vision noises, regression and classification).
 
-####Notes
+##Notes
 =============
 syllabus for revision:  
 1.  ML,MAP,Bayesian approach   
