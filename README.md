@@ -41,14 +41,14 @@ Question: Don't understand the orthogonal Procrustes problem(update: find soluti
 
 ##lab9 (Condensation filter):  
 
-<img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation.jpg" alt="condensation" title="condensation" width="300"/>
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation.jpg" alt="condensation" title="condensation" width="300"/>  
 <img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation2.jpg" alt="condensation2" title="condensation2" width="300"/>
 
   
 ##coursework 1:  
 1. Apple detection (MoG model & EM algorithm)  
 
-<img src="https://github.com/mincongzhang/MachineVision/raw/master/apple.jpg" alt="apple" title="apple" width="300"/>
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/apple.jpg" alt="apple" title="apple" width="300"/>  
 <img src="https://github.com/mincongzhang/MachineVision/raw/master/apple2.jpg" alt="apple2" title="apple2" width="300"/>
 
 
