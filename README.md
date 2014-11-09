@@ -27,7 +27,7 @@ practical1a. Calculate the homography that maps two sets of points to one anothe
 practical1b. Visual panoramas/image mosaicing(A much faster way for mapping is created)
 practical2a. Learning intrinsic parameters in pinhole camera  
 practical2b. Application (Augmented Reality)  
-<img src="https://github.com/mincongzhang/MachineVision/raw/master/panorama.jpg" alt="panorama" title="panorama" height="300"/>
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/panorama.jpg" alt="panorama" title="panorama" height="200"/>
 <img src="https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg" alt="augmented_reality" title="augmented_reality" height="300"/>
 <!-- ![lab7](https://github.com/mincongzhang/MachineVision/raw/master/panorama.jpg)
 ![lab7](https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg)  
