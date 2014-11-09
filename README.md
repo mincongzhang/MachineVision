@@ -32,7 +32,7 @@ practical2b. Application (Augmented Reality)
 <!-- ![lab7](https://github.com/mincongzhang/MachineVision/raw/master/panorama.jpg)
 ![lab7](https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg)  
 -->
-question: Don't understand the orthogonal Procrustes problem(update: find solution at Page 336) 
+Question: Don't understand the orthogonal Procrustes problem(update: find solution at Page 336) 
 
     %Estimate first two columns of rotation matrix R from the first two columns of H using the SVD
     R = H(:,1:2);  
@@ -40,8 +40,12 @@ question: Don't understand the orthogonal Procrustes problem(update: find soluti
     R_hat = U*[1,0;0,1;0,0]*V';  
 
 ##lab9 (Condensation filter):  
-![condensation](https://github.com/mincongzhang/MachineVision/raw/master/condensation.jpg)
-![condensation2](https://github.com/mincongzhang/MachineVision/raw/master/condensation2.jpg)
+
+<a style="float:left;">
+    <img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation.jpg" alt="condensation" title="condensation" height="200"/>
+</a>
+    <a style="float:left;"><img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation2.jpg" alt="condensation2" title="condensation2" height="200"/>
+</a>
   
 ##coursework 1:  
 1. Apple detection (MoG model & EM algorithm)  
