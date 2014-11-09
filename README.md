@@ -42,15 +42,19 @@ Question: Don't understand the orthogonal Procrustes problem(update: find soluti
 ##lab9 (Condensation filter):  
 
 <a style="float:left;">
-    <img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation.jpg" alt="condensation" title="condensation" height="200"/>
+    <img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation.jpg" alt="condensation" title="condensation" height="300"/>
 </a>
-    <a style="float:left;"><img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation2.jpg" alt="condensation2" title="condensation2" height="200"/>
+    <a style="float:left;"><img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation2.jpg" alt="condensation2" title="condensation2" height="300"/>
 </a>
   
 ##coursework 1:  
 1. Apple detection (MoG model & EM algorithm)  
-![apple](https://github.com/mincongzhang/MachineVision/raw/master/apple.jpg)  
-![apple2](https://github.com/mincongzhang/MachineVision/raw/master/apple2.jpg)  
+
+<a style="float:left;">
+    <img src="https://github.com/mincongzhang/MachineVision/raw/master/apple.jpg" alt="apple" title="apple" height="300"/>
+</a>
+    <a style="float:left;"><img src="https://github.com/mincongzhang/MachineVision/raw/master/apple2.jpg" alt="apple2" title="apple2" height="300"/>
+</a>
 
 *bug fixed for 1st coursework: 
 
