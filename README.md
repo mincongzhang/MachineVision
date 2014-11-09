@@ -41,15 +41,15 @@ Question: Don't understand the orthogonal Procrustes problem(update: find soluti
 
 ##lab9 (Condensation filter):  
 
-<img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation.jpg" alt="condensation" title="condensation" width="300"/>  
-<img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation2.jpg" alt="condensation2" title="condensation2" width="300"/>
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation.jpg" alt="condensation" title="condensation" width="400"/>  
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation2.jpg" alt="condensation2" title="condensation2" width="400"/>
 
   
 ##coursework 1:  
 1. Apple detection (MoG model & EM algorithm)  
 
-<img src="https://github.com/mincongzhang/MachineVision/raw/master/apple.jpg" alt="apple" title="apple" width="300"/>  
-<img src="https://github.com/mincongzhang/MachineVision/raw/master/apple2.jpg" alt="apple2" title="apple2" width="300"/>
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/apple.jpg" alt="apple" title="apple" width="400"/>  
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/apple2.jpg" alt="apple2" title="apple2" width="400"/>
 
 
 *bug fixed for 1st coursework: 
@@ -57,8 +57,8 @@ Question: Don't understand the orthogonal Procrustes problem(update: find soluti
     chol(mixGauss.cov(:,:,h),'lower'); 
 
 ##coursework 2 (Augmented reality tracking):
-![augmented_reality](https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg)
 
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg" alt="augmented_reality" title="augmented_reality" width="400"/>
 
 
 Exam is done. But review is still needed (Dense Stereo Vision noises, regression and classification).
