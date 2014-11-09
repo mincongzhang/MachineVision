@@ -28,7 +28,7 @@ practical1b. Visual panoramas/image mosaicing(A much faster way for mapping is c
 practical2a. Learning intrinsic parameters in pinhole camera  
 practical2b. Application (Augmented Reality)  
 ![lab7](https://github.com/mincongzhang/MachineVision/raw/master/panorama.jpg)
-![lab7](https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg)
+![lab7](https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg)  
 question: Don't understand the orthogonal Procrustes problem(update: find solution at Page 336) 
 
     %Estimate first two columns of rotation matrix R from the first two columns of H using the SVD
