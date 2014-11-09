@@ -28,7 +28,7 @@ practical1b. Visual panoramas/image mosaicing(A much faster way for mapping is c
 practical2a. Learning intrinsic parameters in pinhole camera  
 practical2b. Application (Augmented Reality)  
 <img src="https://github.com/mincongzhang/MachineVision/raw/master/panorama.jpg" alt="panorama" title="panorama" height="200"/>
-<img src="https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg" alt="augmented_reality" title="augmented_reality" height="300"/>
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg" alt="augmented_reality" title="augmented_reality" width="500"/>
 <!-- ![lab7](https://github.com/mincongzhang/MachineVision/raw/master/panorama.jpg)
 ![lab7](https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg)  
 -->
@@ -41,15 +41,15 @@ Question: Don't understand the orthogonal Procrustes problem(update: find soluti
 
 ##lab9 (Condensation filter):  
 
-<img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation.jpg" alt="condensation" title="condensation" width="400"/>  
-<img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation2.jpg" alt="condensation2" title="condensation2" width="400"/>
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation.jpg" alt="condensation" title="condensation" width="500"/>  
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation2.jpg" alt="condensation2" title="condensation2" width="500"/>
 
   
 ##coursework 1:  
 1. Apple detection (MoG model & EM algorithm)  
 
-<img src="https://github.com/mincongzhang/MachineVision/raw/master/apple.jpg" alt="apple" title="apple" width="400"/>  
-<img src="https://github.com/mincongzhang/MachineVision/raw/master/apple2.jpg" alt="apple2" title="apple2" width="400"/>
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/apple.jpg" alt="apple" title="apple" width="500"/>  
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/apple2.jpg" alt="apple2" title="apple2" width="500"/>
 
 
 *bug fixed for 1st coursework: 
@@ -58,7 +58,7 @@ Question: Don't understand the orthogonal Procrustes problem(update: find soluti
 
 ##coursework 2 (Augmented reality tracking):
 
-<img src="https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg" alt="augmented_reality" title="augmented_reality" width="400"/>
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg" alt="augmented_reality" title="augmented_reality" width="500"/>
 
 
 Exam is done. But review is still needed (Dense Stereo Vision noises, regression and classification).
