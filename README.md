@@ -7,7 +7,9 @@ c.EM algorithm
 
 EM algorithm v.s. K-means  
 http://www.cs.colorado.edu/~grudic/teaching/CSCI4202/EM_algorithm.pdf  
-![EM](https://github.com/mincongzhang/MachineVision/raw/master/EMvsKMEANS.jpg)
+<--! ![EM](https://github.com/mincongzhang/MachineVision/raw/master/EMvsKMEANS.jpg) -->
+
+<img src="https://github.com/mincongzhang/MachineVision/raw/master/EMvsKMEANS.jpg" alt="EM" title="EM" height="400"/>
 
 ##lab5 (Dynamic Programming):  
 a. Dynamic progamming along scanlines  
