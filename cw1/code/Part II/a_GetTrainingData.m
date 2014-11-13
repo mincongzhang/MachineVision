@@ -46,3 +46,4 @@ DataApple =  [CellDataApple{1} CellDataApple{2} CellDataApple{3}];
 DataNonApple = [CellDataNonApple{1} CellDataNonApple{2} CellDataNonApple{3}];
 DataApple(:,find(sum(DataApple)==0)) = [];
 DataNonApple(:,find(sum(DataNonApple)==0)) = [];
+save('Data_AppleNonApple.mat');
