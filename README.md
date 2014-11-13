@@ -14,7 +14,7 @@ http://www.cs.colorado.edu/~grudic/teaching/CSCI4202/EM_algorithm.pdf
 ##lab5 (Dynamic Programming):  
 a. Dynamic progamming along scanlines  
 b. Apply dynamic programming in Dense Stereo Vision
-(still many noises, need further improvement)
+(still many noises, need further improvement, see P219 results)
 
 
 ##lab6 (Markov Random Fields):   
