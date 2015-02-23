@@ -4,7 +4,7 @@
 % For simplicity, this example code just
 % makes a few cell-arrays to hold the hard-coded filenames.
 
-VideoDirName = '../Pattern01';
+VideoDirName = './Pattern01';
 
 if( ~exist( VideoDirName, 'dir') )
     display('Please change current directory to the parent folder above %s', VideoDirName);
@@ -26,6 +26,7 @@ for (iFrame = 1:numFrames)
     Itemp = imread( frameNames{iFrame} );
     Imgs{iFrame} = Itemp(:,:,1);
 end;
+
 imgWidth = size(Imgs{1}, 2);
 imgHeight = size(Imgs{1}, 1);
 
