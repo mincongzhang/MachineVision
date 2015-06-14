@@ -61,7 +61,7 @@ Question: Don't understand the orthogonal Procrustes problem(update: find soluti
 <img src="https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg" alt="augmented_reality" title="augmented_reality" width="500"/>
 
 
-Exam is done. But review is still needed (Dense Stereo Vision noises, regression and classification).
+Review is still needed (Dense Stereo Vision noises, regression and classification).
 
 ##Syllabus for revision
 1.  ML,MAP,Bayesian approach   
