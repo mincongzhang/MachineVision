@@ -3,7 +3,7 @@ MachineVision
 
 
 ##lab2 (Mixture of Gaussian):
-c. EM(Expectation–maximization)
+c. EM(Expectation–maximization)  
 b. Apply dynamic programming in Dense Stereo Vision
 (still many noises, need further improvement, see P219 results)
 
