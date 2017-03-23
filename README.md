@@ -2,18 +2,18 @@ MachineVision
 =============
 
 
-##lab2 (Mixture of Gaussian):
+## lab2 (Mixture of Gaussian):
 c. EM(Expectation–maximization)  
 b. Apply dynamic programming in Dense Stereo Vision
 (still many noises, need further improvement, see P219 results)
 
 
-##lab6 (Markov Random Fields):   
+## lab6 (Markov Random Fields):   
 a. 5-node grid example in Markov random fields (12.1.1 in the book, page 229)  
 b. Sampling from probability distributions using MCMC methods (get get gaussMeanXGivenY by conditional distributions)  
 c. MAP inference for binary pairwise MRFs (Gibbs sampling)(new method with much less complexity added)
 
-##lab7 (Models for transformations):  
+## lab7 (Models for transformations):  
 practical1a. Calculate the homography that maps two sets of points to one another  
 practical1b. Visual panoramas/image mosaicing(A much faster way for mapping is created)
 practical2a. Learning intrinsic parameters in pinhole camera  
@@ -30,13 +30,13 @@ Question: Don't understand the orthogonal Procrustes problem(update: find soluti
     [U,S,V] = svd(R);  
     R_hat = U*[1,0;0,1;0,0]*V';  
 
-##lab9 (Condensation filter):  
+## lab9 (Condensation filter):  
 
 <img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation.jpg" alt="condensation" title="condensation" width="500"/>  
 <img src="https://github.com/mincongzhang/MachineVision/raw/master/condensation2.jpg" alt="condensation2" title="condensation2" width="500"/>
 
   
-##coursework 1:  
+## coursework 1:  
 1. Apple detection (MoG model & EM algorithm)  
 
 <img src="https://github.com/mincongzhang/MachineVision/raw/master/apple.jpg" alt="apple" title="apple" width="500"/>  
@@ -47,7 +47,7 @@ Question: Don't understand the orthogonal Procrustes problem(update: find soluti
 
     chol(mixGauss.cov(:,:,h),'lower'); 
 
-##coursework 2 (Augmented reality tracking):
+## coursework 2 (Augmented reality tracking):
 
 <img src="https://github.com/mincongzhang/MachineVision/raw/master/augmented_reality.jpg" alt="augmented_reality" title="augmented_reality" width="500"/>
 
