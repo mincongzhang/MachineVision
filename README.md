@@ -54,7 +54,7 @@ Question: Don't understand the orthogonal Procrustes problem(update: find soluti
 
 Review is still needed (Dense Stereo Vision noises, regression and classification).
 
-##Syllabus for revision
+## Syllabus for revision
 1.  ML,MAP,Bayesian approach   
 2.  EM, hidden variable  
 3.  Generative & Discriminative  
